@@ -77,3 +77,25 @@ apps-script/Code.gs   Backend alternatif Google Apps Script
 
 ## Teknologi
 Next.js (App Router) • React • TypeScript • Tailwind CSS v4 • Drizzle ORM + PostgreSQL • Zustand • Framer Motion • Lucide Icons
+
+## Open Source
+Proyek ini **100% Open Source** dan bebas diubah, di-*fork*, dan di-*clone*.
+
+- **Lisensi**: MIT — lihat file [`LICENSE`](./LICENSE).
+- **Hak Cipta**: © 2026 **MZF - 2026**.
+- **Komponen Pihak Ketiga**: lihat [`OPEN_SOURCE.md`](./OPEN_SOURCE.md) untuk daftar library beserta lisensinya.
+- **Kredit**: Nama merek *"NAQI WEAR"* adalah nama unik yang diciptakan khusus untuk proyek ini dan tidak terikat perusahaan, merek, atau bisnis mana pun.
+
+### Download Source Code
+```bash
+git clone https://github.com/MZF-2026/naqi-wear-fashion-web-app.git
+```
+Atau unduh ZIP langsung dari halaman GitHub proyek.
+
+### Cara Berkontribusi
+1. Fork proyek, buat branch baru, buat commit jelas, buka *Pull Request* ke `main`.
+2. Pastikan `npm run typecheck` dan `npm run build` lolos sebelum mengirim PR.
+3. Gunakan TypeScript untuk semua file baru, ikuti gaya tulis yang sudah ada, dan tambahkan komentar hanya jika benar-benar diperlukan.
+
+### Dukungan Pengembangan
+Web app ini gratis dan bebas iklan. Jika Anda merasa terbantu, traktir kecil di [Trakteer.id/perpus_opera](https://trakteer.id/perpus_opera) — kopi kecil, server tetap jalan. Widget traktir tersedia di sudut kanan bawah layar.

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 import { Toaster } from "@/components/Toaster";
+import { FloatingWA } from "@/components/FloatingWA";
+import { TrakteerWidget } from "@/components/TrakteerWidget";
 
 export const metadata: Metadata = {
   title: "NAQI WEAR - Toko Fashion Muslim Online",
@@ -24,6 +26,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body className="bg-krem text-slate-800 antialiased">
         {children}
         <Toaster />
+        <FloatingWA />
+        <TrakteerWidget />
       </body>
     </html>
   );

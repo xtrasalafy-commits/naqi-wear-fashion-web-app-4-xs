@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MessageCircle, Mail, MapPin } from "lucide-react";
+import { MessageCircle, Mail, MapPin, Download } from "lucide-react";
 import { linkWA } from "@/lib/format";
 
 function IkonSosmed({ label, path }: { label: string; path: string }) {
@@ -83,7 +83,16 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-zamrud-700 py-4 text-center text-xs text-zamrud-200">
-        © {new Date().getFullYear()} NAQI WEAR. Tampil Syar&apos;i, Nyaman, dan Elegan Setiap Hari.
+        <a
+          href="https://github.com/MZF-2026/naqi-wear-fashion-web-app/archive/refs/heads/main.zip"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full bg-zamrud-700/60 px-4 py-2 text-zamrud-50 transition hover:bg-zamrud-600 hover:text-white"
+        >
+          <Download className="h-4 w-4" />
+          Download Source Code (Open Source)
+        </a>
+        <p className="mt-2">© {new Date().getFullYear()} NAQI WEAR · Open Source oleh MZF - 2026</p>
       </div>
     </footer>
   );

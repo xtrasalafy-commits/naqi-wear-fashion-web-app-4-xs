@@ -1,0 +1,29 @@
+NAQI WEAR — Toko Online Fashion Muslim Keluarga
+=================================================
+
+Copyright (c) 2026 MZF - 2026. All rights reserved.
+
+This product includes software developed by MZF - 2026
+(https://github.com/MZF-2026).
+
+### Lisensi
+Proyek ini dibawah lisensi MIT. Lihat file `LICENSE` untuk detailnya.
+
+### Komponen Pihak Ketiga
+Berikut library/komponen yang digunakan dalam proyek ini:
+- Next.js (App Router) — MIT License
+- React & ReactDOM — MIT License
+- TypeScript — Apache-2.0 License
+- Tailwind CSS — MIT License
+- Drizzle ORM — MIT License
+- PostgreSQL (`pg`) driver — MIT License
+- Zustand — MIT License
+- Framer Motion — MIT License
+- Lucide React — MIT License
+- Pexels gambar contoh (images.pexels.com) — lisensi Pexels
+
+### Kredit
+- Nama merek "NAQI WEAR" adalah nama unik yang diciptakan khusus untuk proyek ini
+  dan tidak terikat dengan perusahaan, merek, atau bisnis mana pun.
+- Desain warna Islami: Hijau Zamrud `#1B4332`, Emas `#D4AF37`, Krem `#FDF6E3`,
+  Coklat Tanah `#6D4C3D`.
