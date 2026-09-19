@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+
+  --color-zamrud-50: #f1f7f3;
+  --color-zamrud-100: #dcebe1;
+  --color-zamrud-200: #b9d7c5;
+  --color-zamrud-300: #8dbba0;
+  --color-zamrud-400: #5c9a78;
+  --color-zamrud-500: #3c7d5c;
+  --color-zamrud-600: #2a634a;
+  --color-zamrud-700: #1b4332;
+  --color-zamrud-800: #173a2c;
+  --color-zamrud-900: #122e24;
+
+  --color-emas-50: #fbf7e9;
+  --color-emas-100: #f5ecc9;
+  --color-emas-200: #ecdc94;
+  --color-emas-300: #e2c95f;
+  --color-emas-400: #d4af37;
+  --color-emas-500: #c19a2b;
+  --color-emas-600: #a67f22;
+  --color-emas-700: #85621e;
+
+  --color-krem: #fdf6e3;
+  --color-krem-tua: #f5ebd0;
+  --color-tanah: #6d4c3d;
+  --color-tanah-tua: #56392d;
+
+  --animate-fade-up: fade-up 0.55s ease both;
+  --animate-shimmer: shimmer 1.4s linear infinite;
+  --animate-pop: pop 0.25s ease both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes shimmer {
+    from {
+      background-position: -400px 0;
+    }
+    to {
+      background-position: 400px 0;
+    }
+  }
+  @keyframes pop {
+    from {
+      opacity: 0;
+      transform: scale(0.94);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-krem);
+  color: #2b2b28;
+  font-family: var(--font-sans);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #ece5d3 25%, #f7f1e0 50%, #ece5d3 75%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s linear infinite;
+}
